@@ -8,7 +8,7 @@ function nums () {
         return;
     }
     if(user < 0) {
-         check.textContent = "number must be in postive"
+         check.textContent = "Number must be in postive"
          return;
     }
     let a = user * user
@@ -23,7 +23,7 @@ function numss () {
         return;
     }
     if(user < 0) {
-         check.textContent = "number must be in postive"
+         check.textContent = "Number must be in postive"
          return;
     }
     let a = user * user * user
@@ -33,11 +33,17 @@ function numss () {
 function tables () {
      let user = document.getElementById("table").value
     let check = document.getElementById("conclusion")
-    for(let i = 1; i < 10; i++) {
-       let a = user + "x" + i + "=" + user * i;
-       check.textContent = a;
-       return;
-    // console.log(`${user} x ${i} = ${user * i}`)
+    check.textContent = "";
+    if(isNaN(user) || user < 0 || user == "") {
+        check.textContent = "Enter a valid number"
+        return;
+    }
+    for(let i = 1; i <= 10; i++) {
+       let result = user + "x" + i + "=" + user * i;
+       check.textContent += result + "\n";
+      
 
     }
+    
+    
 }

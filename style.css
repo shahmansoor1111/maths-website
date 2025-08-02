@@ -3,9 +3,9 @@
     justify-content: center;
    
 } */
-.container{
+.container {
     height: 400px;
-   
+
     width: 70%;
     display: flex;
     justify-content: center;
@@ -13,53 +13,62 @@
     margin-top: 60px;
     position: relative;
     left: 160px;
-     font-size: 21px;
+    font-size: 21px;
 }
-.square{
+
+.square {
     height: 200px;
-   
+
     width: 400px;
-   box-shadow: 4px 4px 4px 2px black;
-  text-align: center;
-  position: relative;
-  right: 30px;
- 
-   background-color: rgb(197, 206, 206);
-    
+    box-shadow: 4px 4px 4px 2px black;
+    text-align: center;
+    position: relative;
+    right: 30px;
+
+    background-color: rgb(197, 206, 206);
+
 }
-.cube{
-     height: 200px;
+
+.cube {
+    height: 200px;
     width: 400px;
     background-color: rgb(197, 206, 206);
     box-shadow: 4px 4px 4px 2px black;
-     text-align: center;
+    text-align: center;
 }
-.one{
+
+.one {
     position: relative;
     top: 50px;
 }
-.two{
+
+.two {
     position: relative;
     top: 50px;
 }
-input{
+
+input {
     text-align: center;
     border: 1px solid black;
 
 }
-.table{
-     height: 400px;
-   
-    width: 400px;
-   box-shadow: 4px 4px 4px 2px black;
-  text-align: center;
-  position: relative;
-  left: 25rem;
 
- 
-   background-color: rgb(197, 206, 206);
+.table {
+    height: 400px;
+
+    width: 300px;
+    box-shadow: 4px 4px 4px 2px black;
+    text-align: center;
+    position: relative;
+    left: 28rem;
+    font-size: 20px;
+
+
+    background-color: rgb(197, 206, 206);
 }
-.three{
-     position: relative;
+
+.three {
+    position: relative;
     top: 50px;
+   
 }
