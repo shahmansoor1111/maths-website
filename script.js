@@ -19,7 +19,7 @@ function numss () {
     let user = document.getElementById("nums").value
     let check = document.getElementById("output")
      if(!user) {
-        check.textContent = "Please enter one number ........."
+        check.textContent = "Please enter one number ......."
         return;
     }
     if(user < 0) {
@@ -47,3 +47,33 @@ function tables () {
     
     
 }
+function formula () {
+     let user = document.getElementById("formula").value
+    let check = document.getElementById("nan")
+    if(user == "") {
+         check.textContent = "Write a formula"
+         return
+    }
+   if (user == "(a + b)2") {
+    check.textContent = "a² + 2ab + b²"
+   
+   }
+   else if (user == "(a - b)2"){
+     check.textContent = "a² - 2ab + b²"
+   }
+   else if (user == "a2 - b2"){
+     check.textContent = "(a + b)(a - b)"
+   }
+   else if (user == "(a + b)3"){
+     check.textContent = " a³ + 3a²b + 3ab² + b³"
+   }
+   else if (user == "(a - b)3"){
+     check.textContent = "a³ - 3a²b + 3ab² - b³"
+   }
+   else{
+      check.textContent = "Not found"
+   }
+}
+
+
+    

@@ -32,7 +32,7 @@
 .cube {
     height: 200px;
     width: 400px;
-    background-color: rgb(197, 206, 206);
+    background-color: rgb(224, 152, 152);
     box-shadow: 4px 4px 4px 2px black;
     text-align: center;
 }
@@ -60,11 +60,11 @@ input {
     box-shadow: 4px 4px 4px 2px black;
     text-align: center;
     position: relative;
-    left: 28rem;
+    left: 10em;
     font-size: 20px;
 
 
-    background-color: rgb(197, 206, 206);
+    background-color: rgb(104, 187, 187);
 }
 
 .three {
@@ -72,3 +72,21 @@ input {
     top: 50px;
    
 }
+.formula{
+       height: 200px;
+    width: 400px;
+    background-color: rgb(179, 220, 143);
+    box-shadow: 4px 4px 4px 2px black;
+    text-align: center;
+     position: relative;
+    
+    left: 38rem;
+    bottom: 25rem;
+    font-size: 23px;
+    
+}
+.four{
+    position: relative;
+    top: 50px;
+}
+
