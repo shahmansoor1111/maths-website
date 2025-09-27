@@ -19,7 +19,7 @@ function numss () {
     let user = document.getElementById("nums").value
     let check = document.getElementById("output")
      if(!user) {
-        check.textContent = "Please enter one number .."
+        check.textContent = "Please enter one number ..."
         return;
     }
     if(user < 0) {
