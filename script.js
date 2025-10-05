@@ -35,7 +35,7 @@ function tables () {
     let check = document.getElementById("conclusion")
     check.textContent = "";
     if(isNaN(user) || user < 0 || user == "") {
-        check.textContent = "Enter a valid number"
+        check.textContent = "Enter a valid numberrr"
         return;
     }
     for(let i = 1; i <= 10; i++) {
