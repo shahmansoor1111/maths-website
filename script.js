@@ -71,7 +71,7 @@ function formula () {
      check.textContent = "a³ - 3a²b + 3ab² - b³"
    }
    else{
-      check.textContent = "Not found"
+      check.textContent = "Not found!"
    }
 }
 
