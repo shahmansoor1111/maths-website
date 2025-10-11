@@ -1,52 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finding square and cube</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Square, Cube & More</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        
-        <div class="square">
-           
-            <div class="one">
-    <label for="square">Enter a number to find square ::</label>
-    <input type="number" id="num">
-    <button onclick="nums()">Check !!</button>
-    <p id="result"></p>
-    </div>
-    </div>
-    <div class="cube">
-        <div class="two">
-        <label for="cube">Enter a number to find cube ::</label>
-    <input type="number" id="nums">
-    <button onclick="numss()">Check !</button>
-    <p id="output"></p>
-    </div>
+  <h1 class="main-title">✨ Math Magic ✨</h1>
+
+  <div class="container">
+
+    <!-- SQUARE -->
+    <div class="square">
+      <div class="one">
+        <label for="square">Enter a number to find square:</label>
+        <input type="number" id="num">
+        <button onclick="nums()">Find Square</button>
+        <p id="result"></p>
+      </div>
     </div>
 
-</div>
+    <!-- CUBE -->
+    <div class="cube">
+      <div class="two">
+        <label for="cube">Enter a number to find cube:</label>
+        <input type="number" id="nums">
+        <button onclick="numss()">Find Cube</button>
+        <p id="output"></p>
+      </div>
+    </div>
+
+    <!-- TABLE -->
     <div class="table">
-        <div class="three">
-        <label for="table">Tables:</label>
+      <div class="three">
+        <label for="table">Generate Multiplication Table:</label>
         <input id="table" type="number">
+        <button onclick="tables()">Generate</button>
         <pre id="conclusion"></pre>
-        <button onclick="tables()">Generate table</button>
-        </div>
-       
+      </div>
     </div>
-     <div class="formula">
-        <div class="four">
-            <label for="formula">Enter formula :</label>
-            <input id="formula" type="text">
-            <p id="nan"></p>
-            <button onclick="formula()">Generate formula</button>
-        </div>
+
+    <!-- FORMULA -->
+    <div class="formula">
+      <div class="four">
+        <label for="formula">Enter formula (like 2+2*5):</label>
+        <input id="formula" type="text">
+        <button onclick="formula()">Evaluate</button>
+        <p id="nan"></p>
+      </div>
     </div>
-    
-    
-    <script src="./script.js"></script>
+
+    <!-- SQUARE ROOT -->
+    <div class="root">
+      <div class="five">
+        <label for="root">Enter a number to find square root:</label>
+        <input id="rootNum" type="number">
+        <button onclick="findRoot()">Find Root</button>
+        <p id="rootResult"></p>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
